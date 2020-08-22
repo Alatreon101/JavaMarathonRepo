@@ -1,4 +1,4 @@
-package com.company.day0;
+package src.day0;
 
 /*
  *
