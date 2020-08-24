@@ -1,12 +1,17 @@
 package src.day1;
 
+import java.util.Scanner;
+
 /*
  *
  */
 public class Task5 {
     public static void main(String[] args) {
-        for (int i = 31; i <= 100; i += 5) {
-            System.out.println("Мой возраст - " + i);
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите свой возраст: ");
+        int age = scan.nextInt();
+        for (int i = age; i <= 100; i += 5) {
+            System.out.println("Ваш возраст - " + i);
         }
     }
 }

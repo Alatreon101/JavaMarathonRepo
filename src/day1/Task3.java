@@ -19,7 +19,7 @@ public class Task3 {
             case ("while"):
                 int java = 1;
                 while (java < 11) {
-                    System.out.print("JAVA ");
+                    System.out.println("JAVA ");
                     java++;
                 }
                 break;
